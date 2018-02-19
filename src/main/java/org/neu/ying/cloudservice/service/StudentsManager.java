@@ -1,11 +1,9 @@
-package service;
+package org.neu.ying.cloudservice.service;
 
 import org.neu.ying.cloudservice.io.BaseData;
-import org.neu.ying.cloudservice.object.Program;
 import org.neu.ying.cloudservice.object.Student;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -30,7 +28,6 @@ public class StudentsManager {
     }
 
     public List<Student> getAllStudents() {
-        System.out.println("I am calling getAllStudents");
         return new ArrayList<>(map.values());
     }
 

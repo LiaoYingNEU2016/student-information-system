@@ -1,4 +1,4 @@
-package service;
+package org.neu.ying.cloudservice.service;
 
 
 import org.neu.ying.cloudservice.io.BaseData;

@@ -1,7 +1,7 @@
 package org.neu.ying.cloudservice.api;
 
 import org.neu.ying.cloudservice.object.Course;
-import service.CoursesManager;
+import org.neu.ying.cloudservice.service.CoursesManager;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;

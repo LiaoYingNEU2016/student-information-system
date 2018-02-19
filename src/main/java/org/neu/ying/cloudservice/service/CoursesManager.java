@@ -1,12 +1,9 @@
-package service;
+package org.neu.ying.cloudservice.service;
 
 import org.neu.ying.cloudservice.io.BaseData;
 import org.neu.ying.cloudservice.object.Course;
-import org.neu.ying.cloudservice.object.Lecture;
-import org.neu.ying.cloudservice.object.Student;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
