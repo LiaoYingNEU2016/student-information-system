@@ -61,10 +61,10 @@ public class Student {
         this.image = image;
     }
 
-    public List<String> getCourses() {
-        List<String> courseNames = new LinkedList<>();
+    public String getCourses() {
+        Set<String> courseNames = new HashSet<>();
         for (Course c : courses) courseNames.add(c.getId());
-        return courseNames;
+        return courseNames.toString();
     }
 
     public void addCourses(Course course) {

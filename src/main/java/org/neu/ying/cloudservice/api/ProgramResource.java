@@ -1,7 +1,7 @@
 package org.neu.ying.cloudservice.api;
 
 import org.neu.ying.cloudservice.object.Program;
-import service.ProgramManager;
+import org.neu.ying.cloudservice.service.ProgramManager;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
